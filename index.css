@@ -1,0 +1,173 @@
+ * {  
+    box-sizing: border-box;  
+} 
+body {
+  box-sizing: border-box;
+  background-color:#ffff;
+  background: url('images/grass.jpg') no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding-bottom: 20px;
+  color: #AA00AA;
+}
+
+.container {
+  margin-top: 200px;
+  text-align: center;
+}
+button {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  background-color: #0000B5;
+  color:#ffff;
+  padding: 20px;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 14px;
+  cursor:pointer;
+}
+
+.welcomeScreen {
+  text-align: center;
+}
+
+h1 { 
+  font-size: 40px;
+  font-family: Lucida Grande, Lucida Sans,  sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+  color: #AA00AA;
+}
+
+
+ul li{
+  display: inline;
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+  color: #00008B;
+  font-weight: bold;
+}
+
+header {
+  color:#ffff;
+  margin-top: 40px;
+}
+
+ul {
+  font-size: 20px;  
+  padding: 10px;    
+  text-align: left;
+}
+
+
+form {
+    text-align: left;
+}
+
+fieldset {
+   border: none;
+}
+
+.submitAnswerButton {
+    margin-left: 0px;   
+}
+
+.questionResultScreen {
+  text-align: center;
+}
+
+.questionResultScreen h2 {
+  text-align: left;
+}
+
+main {
+  border: 5px solid brown ;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 0;
+  background: #ffff;
+  text-align: center;
+  width: 800px; 
+  display: inline-block; 
+}
+
+.questionCounter, .scoreCounter {
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+  margin-right: 5px;
+  border: solid black 3px;
+  font-weight: bold;
+  background-color: #ffa07a;
+  color: #00008B;
+}
+
+.showSummary {
+  text-align: center;
+}
+
+.showSummary p {
+  font-size: 20px;
+  color: black;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  #cat {
+    border:solid gold;
+    border-radius: 10px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width:770px) {
+   
+    .container {
+      margin-top: 150px;
+    }
+
+    main {
+      width: 90%;
+    }
+    .questionScreen,
+    .welcomeScreen { 
+        margin-bottom: 50px;
+    }
+
+    header {
+      margin-top: 40px;
+    }
+    
+    .questionResultScreen {  
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    button {      
+      font-size: 20px;
+      padding: 5px;
+      border-radius: 3px;      
+      margin-top: 8px;     
+    }
+    
+    ul li{
+      font-size: 20px;     
+    }
+
+    img {
+      width: 100px;
+    }
+    
+    h2 {
+      font-size: 30px;
+    }
+  }
